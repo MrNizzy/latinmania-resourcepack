@@ -5,10 +5,11 @@
 	},
 	
 	"overrides": [
-		{"predicate": {"custom_model_data":0}, "model": "item/stick/0"},
 		{"predicate": {"custom_model_data":1}, "model": "item/stick/1"},
 		{"predicate": {"custom_model_data":2}, "model": "item/stick/2"},
 		{"predicate": {"custom_model_data":3}, "model": "item/stick/3"},
-		{"predicate": {"custom_model_data":4}, "model": "item/stick/4"}
+		{"predicate": {"custom_model_data":4}, "model": "item/stick/4"},
+		{"predicate": {"custom_model_data":100}, "model": "item/stick/100"},
+		{"predicate": {"custom_model_data":666}, "model": "item/stick/666"}
 	]
 }
