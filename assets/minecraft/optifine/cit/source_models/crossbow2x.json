@@ -1,0 +1,61 @@
+{
+	"credit": "Made by betaklerik with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "./items/crossbow_standby"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"pulling": 1
+			},
+			"model": "item/crossbow_pulling_0"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.65
+			},
+			"model": "item/crossbow_pulling_1"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.9
+			},
+			"model": "item/crossbow_pulling_2"
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-85, 0, -45],
+			"translation": [0, 0.75, -4.5],
+			"scale": [2, 2, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-85, 0, 45],
+			"translation": [0, 0.75, -4.5],
+			"scale": [2, 2, 1.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-90, 0, -55],
+			"translation": [1.33, 4, 0],
+			"scale": [2, 2, 1.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-90, 0, 35],
+			"translation": [1.33, 4, 0],
+			"scale": [2, 2, 1.5]
+		},
+		"ground": {
+			"rotation": [-90, 0, 0],
+			"scale": [2, 2, 1.5]
+		},
+		"gui": {
+			"scale": [2, 2, 1]
+		},
+		"fixed": {
+			"scale": [2, 2, 1]
+		}
+	}
+}
